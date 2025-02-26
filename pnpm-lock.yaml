@@ -61,6 +61,9 @@ importers:
 
   apps/docs:
     dependencies:
+      '@ficus-ui/native':
+        specifier: workspace:*
+        version: link:../../packages/components
       '@gorhom/bottom-sheet':
         specifier: 5.0.4
         version: 5.0.4(@types/react-native@0.72.1(react-native@0.76.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@18.3.1)(react@18.3.1)))(@types/react@18.3.1)(react-native-gesture-handler@2.20.2(react-native@0.76.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@18.3.1)(react@18.3.1))(react@18.3.1))(react-native-reanimated@3.16.1(@babel/core@7.26.7)(react-native@0.76.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@18.3.1)(react@18.3.1))(react@18.3.1))(react-native@0.76.0(@babel/core@7.26.7)(@babel/preset-env@7.26.7(@babel/core@7.26.7))(@types/react@18.3.1)(react@18.3.1))(react@18.3.1)
@@ -10081,7 +10084,7 @@ snapshots:
       '@types/node': 20.5.1
       chalk: 4.1.2
       cosmiconfig: 8.3.6(typescript@5.3.3)
-      cosmiconfig-typescript-loader: 4.4.0(@types/node@20.5.1)(cosmiconfig@8.3.6(typescript@5.3.3))(ts-node@10.9.2(@types/node@22.13.1)(typescript@5.1.6))(typescript@5.3.3)
+      cosmiconfig-typescript-loader: 4.4.0(@types/node@20.5.1)(cosmiconfig@8.3.6(typescript@5.1.6))(ts-node@10.9.2(@types/node@22.13.1)(typescript@5.1.6))(typescript@5.3.3)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
@@ -13266,7 +13269,7 @@ snapshots:
     dependencies:
       layout-base: 1.0.2
 
-  cosmiconfig-typescript-loader@4.4.0(@types/node@20.5.1)(cosmiconfig@8.3.6(typescript@5.3.3))(ts-node@10.9.2(@types/node@22.13.1)(typescript@5.1.6))(typescript@5.3.3):
+  cosmiconfig-typescript-loader@4.4.0(@types/node@20.5.1)(cosmiconfig@8.3.6(typescript@5.1.6))(ts-node@10.9.2(@types/node@22.13.1)(typescript@5.1.6))(typescript@5.3.3):
     dependencies:
       '@types/node': 20.5.1
       cosmiconfig: 8.3.6(typescript@5.3.3)
